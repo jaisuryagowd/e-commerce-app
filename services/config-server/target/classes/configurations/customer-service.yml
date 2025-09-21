@@ -1,0 +1,12 @@
+data:
+  mongodb:
+    username: jaisurya
+    password: jaisurya
+    host: localhost
+    port: 27017
+    database: customer
+    authentication-database: admin
+server:
+  port: 8090
+  servlet:
+    context-path: /customer
